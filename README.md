@@ -1,9 +1,9 @@
 # GEN AI
 
 This repository contains two Jupyter Notebooks demonstrating **Generative AI** workflows:
-- **Interacting with CLIP** – exploring OpenAI’s CLIP model for text–image understanding.
-- **Image Generation Without API Key** – building and running an image generation model locally.
 
+- **Image Generation Without API Key** – building and running an image generation model locally.
+- **Interacting with CLIP** – exploring OpenAI’s CLIP model for text–image understanding.
 ---
 
 ## 📖 Introduction
@@ -14,18 +14,30 @@ It’s ideal for students, researchers, and developers interested in practical i
 
 ## ✨ Key Features  
 
-### 🔹 Image Generation Without API Key (Notebook 1)
-- ✅ Builds a **text-to-image generation pipeline** with **VQGAN / Diffusion Models**.  
-- ✅ Integrates **CLIP-based similarity** to refine or evaluate generated images.  
-- ✅ Implements **prompt engineering** and **guidance scale tuning** for optimized output.  
-- ✅ Enables **offline deployment without API dependencies** for cost-efficient experimentation.  
-- ✅ Demonstrates **synthetic data augmentation & creative design workflows**.  
+### 🖼️ Image Generation Without API Key (Notebook 1)
+
+🚀 Created a **local text-to-image generation workflow** using **VQGAN / Diffusion Models**.  
+Enhanced image synthesis with:  
+✅ 📝 Custom **prompt engineering** to steer outputs  
+✅ ⚙️ **Guidance-scale tuning** for sharper, more relevant images  
+✅ ⏱️ **Inference-step control** for speed/quality trade-off  
+
+🤝 Added **CLIP-based similarity scoring** to evaluate or refine generated images.  
+💻 Runs **fully offline without API keys**, enabling cost-efficient experimentation.  
+🎨 Demonstrates **synthetic data augmentation** and **creative design pipelines**.
+
+---
 
 ### 🔹 Interacting with CLIP (Notebook 2)
-- ✅ Uses **OpenAI CLIP** for **vision–language understanding**.  
-- ✅ Performs **zero-shot image classification**.  
-- ✅ Computes **text–image similarity embeddings** for cross-modal retrieval.  
-- ✅ Generates **cosine similarity visualizations / heatmaps** to interpret results.  
+
+🔍 Explored **OpenAI CLIP** for **vision-language understanding**:  
+✅ 🖼️ **Zero-shot image classification** directly from text prompts  
+✅ 🔄 **Cross-modal retrieval** (search images by text & vice versa)  
+✅ 📊 **Text–image embedding similarity** for ranking and clustering  
+
+⚡ Built combined **Transformer text encoder + CNN/ViT image encoder** pipelines.  
+🗺️ Provided **cosine-similarity heatmaps** and **embedding-space visualisations** to interpret results.
+
 
 ---
 
