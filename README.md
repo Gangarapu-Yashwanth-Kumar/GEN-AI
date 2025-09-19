@@ -14,18 +14,18 @@ It’s ideal for students, researchers, and developers interested in practical i
 
 ## ✨ Key Features  
 
-### 🔹 Interacting with CLIP (Notebook 1)
-- ✅ Uses **OpenAI CLIP** for **vision–language understanding**.  
-- ✅ Performs **zero-shot image classification**.  
-- ✅ Computes **text–image similarity embeddings** for cross-modal retrieval.  
-- ✅ Generates **cosine similarity visualizations / heatmaps** to interpret results.  
-
-### 🔹 Image Generation Without API Key (Notebook 2)
+### 🔹 Image Generation Without API Key (Notebook 1)
 - ✅ Builds a **text-to-image generation pipeline** with **VQGAN / Diffusion Models**.  
 - ✅ Integrates **CLIP-based similarity** to refine or evaluate generated images.  
 - ✅ Implements **prompt engineering** and **guidance scale tuning** for optimized output.  
 - ✅ Enables **offline deployment without API dependencies** for cost-efficient experimentation.  
 - ✅ Demonstrates **synthetic data augmentation & creative design workflows**.  
+
+### 🔹 Interacting with CLIP (Notebook 2)
+- ✅ Uses **OpenAI CLIP** for **vision–language understanding**.  
+- ✅ Performs **zero-shot image classification**.  
+- ✅ Computes **text–image similarity embeddings** for cross-modal retrieval.  
+- ✅ Generates **cosine similarity visualizations / heatmaps** to interpret results.  
 
 ---
 
